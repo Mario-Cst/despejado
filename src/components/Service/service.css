@@ -1,0 +1,30 @@
+.card {
+  margin: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 6px 6px 8px grey;
+  cursor: pointer;
+}
+.service {
+  width: 100%;
+}
+.service-dash {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.card-title {
+  color: white;
+  background-color: rgb(210, 48, 30);
+  padding-left: 8px;
+  height: 48px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.card-content {
+  padding: 16px;
+}
